@@ -20,7 +20,3 @@ Bienvenido en el sitio $variable1 </h1>";
     echo "Nombre de archivo ejecutado: ", $_SERVER['PHP_SELF'], "&nbsp;&nbsp;&nbsp;";
     echo " Nombre del archivo incluido : ", __FILE__, "</div> ";
     ?>
-    <?php
-    echo "<h1> Este es el cuerpo del documento </h1>"; 
-    echo "<h2> Este es el cuerpo del documento </h2>";
-    ?>
