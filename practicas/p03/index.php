@@ -32,6 +32,7 @@
     include 'ejercicio4.php';
     include 'ejercicio5.php';
     include 'ejercicio6.php';
+    include 'ejercicio7.php';
     ?>
 </body>
 
