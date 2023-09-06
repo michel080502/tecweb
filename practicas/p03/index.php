@@ -27,7 +27,8 @@
     echo '<li> $_element1 es valida porque inicia con guion bajo </li>';
     echo '</ul>';
 
-    include 'ejercicio2.php'
+    include 'ejercicio2.php';
+    include 'ejercicio3.php';
     ?>
 </body>
 
