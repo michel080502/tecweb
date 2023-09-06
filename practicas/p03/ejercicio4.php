@@ -1,6 +1,6 @@
 <?php
 echo '<h2>Ejercicio 4</h2>';
-echo '<p>4. Lee y muestra los valores de las variables del ejercicio anterior, pero ahora con la ayuda de
+echo '<p> Lee y muestra los valores de las variables del ejercicio anterior, pero ahora con la ayuda de
 la matriz $GLOBALS o del modificador global de PHP.</p>';
 $a2 = 'PHP5';
 $z2[] = &$a2;
