@@ -2,16 +2,17 @@
 echo '<h2>Ejercicio 4</h2>';
 echo '<p>4. Lee y muestra los valores de las variables del ejercicio anterior, pero ahora con la ayuda de
 la matriz $GLOBALS o del modificador global de PHP.</p>';
-$a1 = 'PHP5';
-$z1[] = &$a1;
-$b1 = '5a version de PHP';
-//$c1 = $b*10; invalido
-$a1 .= $b1;
-//$b1 *= $c1; invalido
-$z1[0] = 'MySQL';
+$a2 = 'PHP5';
+$z2[] = &$a2;
+$b2 = '5a version de PHP';
+@$c2 = $b2*10; 
+$a2 .= $b2;
+@$b2 *= $c2; 
+$z2[0] = 'MySQL';
 function varibaleglobal(){
-    global $a1, $b1, $c1, $z1;
-     $x = $a1 . $b1. var_dump($z1);
+    global $a2, $b2, $c2, $z2;
+     $x = $a2 . $b2. $c2;
+     echo var_dump($z2);
      echo $x;
 };
 varibaleglobal();
