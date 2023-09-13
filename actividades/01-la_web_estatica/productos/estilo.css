@@ -11,6 +11,7 @@ h1 {
 #search-bar input {
   padding: 5px;
   width: 200px;
+  border-radius: 6px;
 }
 
 #search-bar button {
@@ -23,9 +24,13 @@ h1 {
 
 ul.barra{
   list-style-type: none;
-  padding: 5px;
+  padding: 0px;
   display: flex;
-  background-color: rgb(175, 175, 175);
+  background-color: rgb(244, 244, 244);
+  width: 100%;
+  margin-top: 1.2%;
+  border-bottom: 1px solid rgb(211, 211, 211);
+  height: 60px;
 }
 
 li.barra{
@@ -34,18 +39,32 @@ li.barra{
   text-decoration: none;
   color: black;
   font-size: 20px;
+  margin: auto;
 }
 
 table{
     width: 70%;
     align-self: center;
-    margin: auto;
+    margin: 10%;
 }
 td {
-    border: solid;
+    border: none;
 }
 
 li.info{
     text-align: left;
     color: red;
 }
+button{
+  text-align: center;
+  border-radius: 10%;  
+}
+
+.texto{
+  font-weight: bold;
+  font-family: 'Public Sans', sans-serif;
+}
+.textogeneral{
+  font-family: 'Public Sans', sans-serif;
+}
+
