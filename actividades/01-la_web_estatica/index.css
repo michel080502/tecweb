@@ -1,6 +1,3 @@
-
-
-
 h1 {
     margin: 0;
     color: black; 
@@ -33,8 +30,7 @@ ul {
 }
 
 li {
-    margin-right: 120px; 
-    margin-left: 70px;
+    margin:auto;
     text-decoration: none;
     color: black; 
     font-size: 20px;
@@ -45,13 +41,15 @@ table, tr{
 }
 
 td{
-    justify-content: center;
-    align-items: center;
-    text-align: justify;
-    padding-top: 5%;
-    margin-left: 5%;
+    text-align: center;
+    padding-top: 2%;
+    color: black;
+    font-size: 18px;
 }
-
+a{
+    text-decoration: none;
+    color: white;
+}
 .gradient-row {
     background: linear-gradient(to bottom, #ffffff,#aca7ff,#5370f0, #0000ff);
     height: 40px; 
